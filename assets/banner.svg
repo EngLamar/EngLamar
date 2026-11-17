@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#39F28A" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000" fill-opacity="0.18"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.2" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#1E5C3B" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#060C09" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hex" cx="0.5" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#1E5C3B"/>
+      <stop offset="1" stop-color="#0A2016"/>
+    </radialGradient>
+    <linearGradient id="xp" x1="0" x2="1">
+      <stop offset="0" stop-color="#39F28A"/>
+      <stop offset="1" stop-color="#B8FF3C"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M24 0H1280V296L1256 320H0V24Z" fill="#060C09"/>
+  <path d="M24 0H1280V296L1256 320H0V24Z" fill="url(#grid)"/>
+  <rect width="1280" height="320" fill="url(#glow)"/>
+  <path d="M24 0H1280V296L1256 320H0V24Z" fill="none" stroke="#1E3A2A" stroke-width="2"/>
+
+  <!-- avatar -->
+  <g transform="translate(90 70)">
+    <polygon points="45,0 135,0 180,90 135,180 45,180 0,90" fill="url(#hex)" stroke="#39F28A" stroke-width="3"/>
+    <text x="90" y="118" text-anchor="middle" font-size="96" font-weight="800" fill="#39F28A">L</text>
+    <rect x="40" y="194" width="100" height="26" fill="#FFC94A"/>
+    <text x="90" y="212" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="14" font-weight="700" fill="#2A1E00">LV 2026</text>
+  </g>
+
+  <!-- text -->
+  <text x="320" y="92" font-family="Consolas, 'Courier New', monospace" font-size="18" font-weight="700" letter-spacing="3" fill="#39F28A">PLAYER 1 ▸ READY</text>
+  <text x="318" y="160" font-size="64" font-weight="800" fill="#E2F8EA">Lamar Altalhi</text>
+  <text x="320" y="200" font-family="Consolas, 'Courier New', monospace" font-size="20" letter-spacing="2" fill="#86A895">CLASS: XR DEVELOPER · AI · HARDWARE</text>
+
+  <!-- xp bar -->
+  <text x="320" y="246" font-family="Consolas, 'Courier New', monospace" font-size="14" font-weight="700" fill="#39F28A">XP</text>
+  <rect x="352" y="232" width="420" height="18" fill="#0A1F14" stroke="#1E3A2A"/>
+  <rect x="354" y="234" width="380" height="14" fill="url(#xp)"/>
+  <text x="784" y="246" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#86A895">Computer Engineering · Taif University</text>
+
+  <!-- stat chips -->
+  <g font-family="Consolas, 'Courier New', monospace" font-size="15" font-weight="700">
+    <rect x="1010" y="70" width="200" height="44" fill="#0F1C15" stroke="#1E3A2A"/>
+    <text x="1028" y="98" fill="#FFC94A">🏆 1ST OF 67</text>
+    <rect x="1010" y="124" width="200" height="44" fill="#0F1C15" stroke="#1E3A2A"/>
+    <text x="1028" y="152" fill="#39F28A">◆ UNITY · C#</text>
+    <rect x="1010" y="178" width="200" height="44" fill="#0F1C15" stroke="#1E3A2A"/>
+    <text x="1028" y="206" fill="#39F28A">◆ AR · VR · XR</text>
+  </g>
+
+  <text x="1210" y="290" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="13" letter-spacing="3" fill="#1C8A4E">PRESS START</text>
+  <rect width="1280" height="320" fill="url(#scan)"/>
+</svg>
