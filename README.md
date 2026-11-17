@@ -11,7 +11,7 @@ Computer Engineering graduate from **Taif University** building games and immers
 - 🏆 Hardware team member on **AquaVenture**, the AI-powered underwater robot that won **1st place among 67** graduation projects
 - 🥽 Building AR games with **Unity + Vuforia** and VR experiences for **Meta Quest**
 - 🤖 Worked on **Ramlah**, a bilingual RAG chatbot, during my co-op at **Rimal X**
-- 🌱 Currently leveling up in **VR, MR and XR**
+- 🌱 Currently leveling up in **VR, MR and AR**
 
 ### 🕹️ Featured projects
 
